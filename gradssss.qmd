@@ -1,0 +1,114 @@
+---
+title: "Eduvos Graduate Survey Analysis"
+author: "Yanelisa Gina Dondolo"
+date: "12 March 2025"
+format: html
+editor: visual
+---
+
+## Introduction
+
+Eduvos graduates have successfully navigated their educational journey, and whether they are employed or not, they have utilized their degrees. This report’s purpose consists of analyzing Eduvos IT graduates to identify the preferred tools for specific degrees. Those tools are widely spread across, but this report will only be focusing on programming languages, databases, web frameworks, cloud platforms, and artificial intelligence (AI) tools.
+
+## Data Overview
+
+1.  Summary of the dataset:
+
+-   Responses received: 31821
+
+2.  Key variables:
+
+-   Study Field (IT, Data Science and Computer Science)
+-   Programming Languages
+-   Databases
+-   Web Frameworks
+-   Cloud Platforms
+-   AI tools
+
+The original dataset presented was large. Before the dataset could be analyzed, data preprocessing and cleaning steps had to be executed. This allowed for the dataset to be in a more usable format.
+
+Data preprocessing and cleaning steps taken:
+
+1.  Filled empty rows.
+
+2.  Calculated the percentage of missing values.
+
+3.  Filtered out the missing values based on the percentage.
+
+4.  Standardized categorical columns.
+
+5.  Selected 5 campuses with the most responses (top 5 campuses).
+
+6.  Saved the cleaned dataset as a csv file.
+
+7.  Reshaped selected data from wide format to long format (removed the semi-colons.)
+
+## Insights and Analysis
+
+## Programming Languages
+
+<img src="Rplot_ProgLang.png" width="600" height="700">
+
+The most popular programming languages among graduates are Python, JavaScript, and Java. Trends indicate a growing favour for Python which checks out considering the growing interest in Data Science.
+
+## Databases
+
+<img src="Rplot_Databases.png" width="600" height="700">
+
+The most popular tools for Databases are PostgreSQL, MySqL, and SQLite. 
+
+## Web Frameworks
+<img src="Rplot_Webframework.png" width="600" height="700">
+
+The most popular tools for web frameworks are Node.js, React and jQuery
+
+## Cloud Platforms
+<img src="Rplot_Platform.png" width="600" height="700">
+
+The most popular cloud platforms are Amazon Web Services, Microsoft Azure, Google Cloud.
+
+## AI Tools
+
+<img src="Rplot_AITool.png" width="600" height="700">
+
+The most popular tools AI Tools are Github Copilot, Tabnine and AWS CodeWhisperer.
+
+## Recommendations
+
+## Curriculum Development:
+
+- Add the popular and rising to popularity programming languages to the curriculum of the Students in Information Technology.
+
+## Focus Areas
+
+- Integrate courses that introduce and go over AI based  Tools
+
+## Industry Alignment
+
+- Hackathons and competetions to encourage working with AI, cloud and cybersecurity
+
+## Conclusion
+
+The Eduvos Graduate Survey shows the trends in technologies that play a big role in their careers. To align with the trends, the curriculum needs to be updated accordingly to better equipt the graduates for the workplace. 
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
